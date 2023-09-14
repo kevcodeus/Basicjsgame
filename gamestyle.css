@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(192, 144, 244);
+}
+#container{
+    background-color: rgb(145, 75, 210);
+    border: 5px solid rgb(224, 146, 130) ;
+    height: 275px;
+    width: 750px;
+    margin: auto;
+    text-align: center;
+}
+p {
+    color: aqua;
+    font-size: 24px;
+}
+#input {
+    width: 100px;
+    margin: 25px auto auto 5px;
+}
+button{
+    box-shadow: 0 0 5px rgb(161, 52, 228),0 0 25px rgb(141, 15, 200);
+}
+button:hover{
+    box-shadow: 0 0 5px rgb(219, 59, 59),0 0 25px rgb(207, 87, 207), 0 0 5px green,0 0 25px cyan;
+    transition: all .1s linear ;
+    transform: scale(1.1) ;
+}
